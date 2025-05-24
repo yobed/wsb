@@ -27,7 +27,9 @@ messages = [
 ```
 
 ## Overview
-**Sentiment Distribution**:
+### **Sentiment Distribution**
+
+
 <img src="pics/sentiment_dist.png" alt="Sentiment Distribution" width="600"/>
 <img src="pics/sent_quarter.png" alt="Sentiment by Quarter" width="600"/>
 
@@ -162,8 +164,10 @@ My rate limit is 5000 requests for OpenAI, I've changed the code to allow for sk
 
 Ford stock is definitely broken. As you read above, lots of false positives for 'press f to pay respects', or honestly just 'f'. 
 
-Going to leave this on overnight, and see how it goes! Got up to 720 chunks, which is 360,000 rows, and on the relevant tickers, there are 53,438 data points. Better than my previous project.
+Going to leave this on overnight, and see how it goes! 
+[update] Got up to 720 chunks, which is 360,000 rows, and on the relevant tickers, there are 53,438 data points. Better than my previous project. Lot's of other ideas popping up, especially for image analysis.
 
-##
+Overall, great learning lesson.
+
 
 
