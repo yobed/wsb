@@ -1,13 +1,71 @@
-# Wallstreet Bets Analysis 2018-2022 (including ~100 relevant tickers) 
+# Wallstreet Bets Analysis 2017:12:31-2020:08:20 on ~100 relevant tickers
 ** More of a draft project, to see if it's worth pursuing. **
 
 * Credit to **https://github.com/Watchful1/PushshiftDumps/tree/master** for *dig_through.py*.
 
-* Data grabbed from Pushshift data dump. <img src="data_example.png" alt="Data" width="600"/> ~2.1 million rows of data
+* Data grabbed from Pushshift data dump. <img src="data_example.png" alt="Data" width="600"/> ~2.1 million rows of data of wallstreetbets.
 
 * Main script: **analyze_main.py** (main idea is there, but not fully fleshed out)
 
 For future reference, I plan to create a library for this to continue these data projects, as I have a few more in mind, and this is a good start.
+
+# Analysis of Wallstreet Bets Data
+## Costs of Analysis
+**OpenAI API**: 53,438 were apart of the relevant tickers, costing a total of 1.88$.
+<img src="costs.png" alt="Costs" width="600"/>
+
+## Overview
+**Sentiment Distribution**:
+<img src="sentiment_dist.png" alt="Sentiment Distribution" width="600"/>
+<img src="sent_quarter.png" alt="Sentiment by Quarter" width="600"/>
+
+```
+Top 20 Most Mentioned Tickers:
+ticker_symbol
+TSLA    8651
+AMD     5081
+MU      4204
+MSFT    2930
+AAPL    2446
+AMZN    2429
+SPCE    2315
+COST    1730
+DOW     1713
+F       1710
+DIS     1583
+NVDA    1459
+UBER    1275
+BABA    1174
+NFLX    1118
+BA      1054
+C       1042
+V       1010
+SQ       961
+NIO      899
+```
+**Note**: Warning false positives, read below.
+
+We'll look at TSLA over time with price and sentiment.
+## TSLA
+
+**8653 relevant to TSLA.**
+Read *tesla.py* for more details on how the data was processed.
+
+### Volume
+<img src="tsla_volume.png" alt="TSLA volume daily" width="600"/>
+<img src="tsla_volume_weekly.png" alt="TSLA volume weekly" width="600"/>
+
+### Sentiment
+<img src="tsla_sent.png" alt="TSLA sentiment weekly" width="600"/>
+
+
+
+
+
+
+
+
+
 
 # Thought Process
 We'll use pandas as our main data manipulation library, along with using a chunk_size to read in smaller dataframes, since our dataset is 2_100_000 (2115057) rows. Also we will use the 4o-mini from OpenAI to get sentiment. 
@@ -111,7 +169,7 @@ My rate limit is 5000 requests for OpenAI, I've changed the code to allow for sk
 
 Ford stock is definitely broken. As you read above, lots of false positives for 'press f to pay respects', or honestly just 'f'. 
 
-Going to leave this on overnight, and see how it goes!
+Going to leave this on overnight, and see how it goes! Got up to 720 chunks, which is 360,000 rows, and on the relevant tickers, there are 53,438 data points. Better than my previous project.
 
 ##
 
