@@ -5,14 +5,26 @@
 
 * Data grabbed from Pushshift data dump. <img src="pics/data_example.png" alt="Data" width="600"/> ~2.1 million rows of data of wallstreetbets.
 
-* Main script: **analyze_main.py** (main idea is there, but not fully fleshed out)
+* Goal 1: To analyze the sentiment of posts related to specific stock tickers, particularly focusing on Tesla (TSLA), and to understand the overall sentiment trends in the Wallstreet Bets subreddit.
+* Goal 2: Use OpenAI's API to see if valid for analyzing data, with giving reasoning for the sentiment, to see if it is worth pursuing for future projects.
 
-For future reference, I plan to create a library for this to continue these data projects, as I have a few more in mind, and this is a good start.
-
-# Analysis of Wallstreet Bets Data
+# Overview of Wallstreet Bets Data
 ## Costs of Analysis
 **OpenAI API**: 53,438 were apart of the relevant tickers, costing a total of 1.88$.
+
+
 <img src="pics/costs.png" alt="Costs" width="600"/>
+
+**Prompt:**
+```python
+messages = [
+    {"role": "system", "content": "You are an AI expert in financial and meme sentiment analysis. Analyze the sentiment of the provided Reddit post text. "
+                                 "Respond with a JSON object containing two keys: "
+                                 "'sentiment' (string: 'Positive', 'Negative', or 'Neutral') and "
+                                 "'ai_reason' (string: a brief, one-sentence explanation for the sentiment)."},
+    {"role": "user", "content": f"Analyze the following text: \"{processed_text}\""}
+]
+```
 
 ## Overview
 **Sentiment Distribution**:
@@ -33,8 +45,8 @@ COST    1730
 DOW     1713
 ...     ...
 ```
-We'll look at TSLA over time with price and sentiment.
-## TSLA
+
+## TSLA (Tesla, Inc.) Overview
 
 **8653 relevant to TSLA.**
 Read *tesla.py* for more details on how the data was processed.
