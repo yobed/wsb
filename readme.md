@@ -1,9 +1,9 @@
 # Wallstreet Bets Analysis 2017:12:31-2020:08:20 on ~100 relevant tickers
-** More of a draft project, to see if it's worth pursuing. **
+ >**Draft project, great learning lesson on data analysis, OSINT, executing w/ LLMs, pitfalls of working w/ data**
 
 * Credit to **https://github.com/Watchful1/PushshiftDumps/tree/master** for *dig_through.py*.
 
-* Data grabbed from Pushshift data dump. <img src="data_example.png" alt="Data" width="600"/> ~2.1 million rows of data of wallstreetbets.
+* Data grabbed from Pushshift data dump. <img src="pics/data_example.png" alt="Data" width="600"/> ~2.1 million rows of data of wallstreetbets.
 
 * Main script: **analyze_main.py** (main idea is there, but not fully fleshed out)
 
@@ -12,12 +12,12 @@ For future reference, I plan to create a library for this to continue these data
 # Analysis of Wallstreet Bets Data
 ## Costs of Analysis
 **OpenAI API**: 53,438 were apart of the relevant tickers, costing a total of 1.88$.
-<img src="costs.png" alt="Costs" width="600"/>
+<img src="pics/costs.png" alt="Costs" width="600"/>
 
 ## Overview
 **Sentiment Distribution**:
-<img src="sentiment_dist.png" alt="Sentiment Distribution" width="600"/>
-<img src="sent_quarter.png" alt="Sentiment by Quarter" width="600"/>
+<img src="pics/sentiment_dist.png" alt="Sentiment Distribution" width="600"/>
+<img src="pics/sent_quarter.png" alt="Sentiment by Quarter" width="600"/>
 
 ```
 Top 20 Most Mentioned Tickers:
@@ -31,20 +31,8 @@ AMZN    2429
 SPCE    2315
 COST    1730
 DOW     1713
-F       1710
-DIS     1583
-NVDA    1459
-UBER    1275
-BABA    1174
-NFLX    1118
-BA      1054
-C       1042
-V       1010
-SQ       961
-NIO      899
+...     ...
 ```
-**Note**: Warning false positives, read below.
-
 We'll look at TSLA over time with price and sentiment.
 ## TSLA
 
@@ -52,17 +40,14 @@ We'll look at TSLA over time with price and sentiment.
 Read *tesla.py* for more details on how the data was processed.
 
 ### Volume
-<img src="tsla_volume.png" alt="TSLA volume daily" width="600"/>
-<img src="tsla_volume_weekly.png" alt="TSLA volume weekly" width="600"/>
+<img src="pics/tsla_volume.png" alt="TSLA volume daily" width="600"/>
+<img src="pics/tsla_volume_weekly.png" alt="TSLA volume weekly" width="600"/>
 
 ### Sentiment
-<img src="tsla_sent.png" alt="TSLA sentiment weekly" width="600"/>
+<img src="pics/tsla_sent.png" alt="TSLA sentiment weekly" width="600"/>
 
 
-
-
-
-
+**Note**: Warning false positives, read below.
 
 
 
@@ -101,12 +86,8 @@ How many press F to pay respects posts are there? I'll probably have to filter o
 4. **CSV Handling**: I realize that CSV files are dangerous to work on. One mistep, and you can lose all your data. I recommend using a database or at least a backup of the CSV file before making any changes.
 
 My memory while doing this, Chrome Tab for checking usage on OpenAI:
-<img src="memory.png" alt="Memory" width="600"/>
+<img src="pics/memory.png" alt="Memory" width="600"/>
 
-## Pricing
-**OpenAI's 4o-mini model:**
-- $1.100 / 1M tokens
-- $4.400 / 1M tokens
 
 
 ## 'Along the way' Thought Process:
@@ -162,7 +143,7 @@ Head of processed chunk:
 4     12  2017-12-31  ...                                               None        []
 ```
 
-** Update: I've been currently running the data, it is quite slow though. My rate limit for OpenAI is 5000 requests per minute. What's taking so long? <img src="chunk157.png" alt="Rate Limit" width="600"/>
+** Update: I've been currently running the data, it is quite slow though. My rate limit for OpenAI is 5000 requests per minute. What's taking so long? <img src="pics/chunk157.png" alt="Rate Limit" width="600"/>
 
 My rate limit is 5000 requests for OpenAI, I've changed the code to allow for skipping chunks, but also allow for room for the rate limit, as 0.001 is verrryy fast, 0.02 is closer to the ideal (~50 requests per second) in a perfect world, I believe that latency is the main issue. (May turn into a different project for this, and maybe technically OpenAI is not the best for this, rather back to my simple use of a static sentiment analysis model-- *but the reasoning is a main part of seeing if it is worth pursuing*)
 
