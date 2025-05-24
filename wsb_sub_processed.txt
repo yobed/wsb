@@ -1,0 +1,66 @@
+score,date,title,author,permalink,selftext,sentiment,ai_reason,tickers
+3,2017-12-31,Blowing versus sucking,u/alreadyinuse5000,https://www.reddit.com/r/wallstreetbets/comments/7nca41/blowing_versus_sucking/,"AAPL just entered a contract to purchase 51 of the newest wind turbines from vwdry. This stock got beat up because the original tax bill was going to eliminate wind energy credits and foreign competition is driving down margins.
+
+The tax bill that was signed kept the credits in place and they just announced the Apple deal.
+
+Edit to fix ticker.....",Positive,"The post highlights a favorable development for AAPL with the announcement of a contract for wind turbines and the retention of tax credits, suggesting optimism about the stock's future.","[""AAPL""]"
+66,2017-12-31,I went all in on WATT at $28 AMA,u/Nonaluuluu,https://www.reddit.com/r/wallstreetbets/comments/7ncbs2/i_went_all_in_on_watt_at_28_ama/,https://i.redd.it/ouhec1g0xc701.jpg,,,[]
+1,2017-12-31,Started not to give a fuck and stopped fearing the consequence,u/[deleted],https://www.reddit.com/r/wallstreetbets/comments/7nccgv/started_not_to_give_a_fuck_and_stopped_fearing/,https://i.redd.it/3e0ctakoxc701.jpg,,,[]
+2,2017-12-31,Started not to give a f* and stopped fearing the consequence.,u/[deleted],https://www.reddit.com/r/wallstreetbets/comments/7nccon/started_not_to_give_a_f_and_stopped_fearing_the/,https://i.redd.it/w9oo9jzuxc701.jpg,Positive,The text expresses a sense of liberation and empowerment by indicating a shift away from fear and concern about consequences.,"[""F""]"
+12,2017-12-31,#8 and #17. Yacht party this time next year?,u/therealjordanbelfort,https://www.reddit.com/r/wallstreetbets/comments/7ncib3/8_and_17_yacht_party_this_time_next_year/,https://www.usatoday.com/story/money/markets/2017/12/31/18-stocks-could-rise-25-18/982517001/,,,[]
+1,2017-12-31,New Year's YOLO,u/Shrimp_Chow_Mein,https://www.reddit.com/r/wallstreetbets/comments/7ncihc/new_years_yolo/,[removed],,,[]
+51,2017-12-31,WSB's top stocks of 2018?,u/The_Strudel_Master,https://www.reddit.com/r/wallstreetbets/comments/7ncl0s/wsbs_top_stocks_of_2018/,So we can look back and cherry pick the play we could of made. I'll start. MU,Neutral,The post expresses a curiosity about past stock performances without conveying strong positive or negative emotions.,"[""MU""]"
+0,2017-12-31,Volatility longs in 2017,u/mikhael4440,https://www.reddit.com/r/wallstreetbets/comments/7ncu3k/volatility_longs_in_2017/,https://i.redd.it/eooa9oqmfd701.jpg,,,[]
+7,2017-12-31,This subreddit in real life,u/nasdrovje,https://www.reddit.com/r/wallstreetbets/comments/7ncwub/this_subreddit_in_real_life/,https://i.redd.it/ciejq8ruhd701.jpg,,,[]
+49,2017-12-31,Trump will lead me to a speedy recovery and my mom gets Kim because she is waging biological warfare on me. Long NyQuil!,u/bitesizebeef,https://www.reddit.com/r/wallstreetbets/comments/7nd224/trump_will_lead_me_to_a_speedy_recovery_and_my/,https://i.redd.it/wc5qvv9mod701.jpg,,,[]
+33,2017-12-31,FYI: Canada Goose stock ticker is GOOS,u/Whatsanoption,https://www.reddit.com/r/wallstreetbets/comments/7nd4g8/fyi_canada_goose_stock_ticker_is_goos/,Shit getting mad chilly and I been hearing that some of the flagships are sold out. ,,,[]
+1,2018-01-01,Happy new year faggots! #WSB,u/Lost_in_Nebraska402,https://www.reddit.com/r/wallstreetbets/comments/7ndvt5/happy_new_year_faggots_wsb/,[removed],,,[]
+1771,2018-01-01,Robinhood saved me over $8k in fees!,u/ashamedhair,https://www.reddit.com/r/wallstreetbets/comments/7ndycf/robinhood_saved_me_over_8k_in_fees/,https://imgur.com/kv15BTn,,,[]
+8,2018-01-01,Peasants.,u/mrTang5544,https://www.reddit.com/r/wallstreetbets/comments/7ne0co/peasants/,https://i.redd.it/f8erkaw4ue701.jpg,,,[]
+49,2018-01-01,You're Practically losing money not using robinhood!,u/Above_Everything,https://www.reddit.com/r/wallstreetbets/comments/7ne39b/youre_practically_losing_money_not_using_robinhood/,https://i.imgur.com/vcvPMKM.jpg,,,[]
+0,2018-01-01,Is always cashing out above a certain amount a viable investment strategy?,u/[deleted],https://www.reddit.com/r/wallstreetbets/comments/7ne3pe/is_always_cashing_out_above_a_certain_amount_a/,[deleted],,,[]
+1,2018-01-01,"Y'all who been trading JNUG and shit, listen up!- Crypto is whatou want- that thrill of 15% fluctuation on a normal day... no fucking checks as to what your credibility is... who needs that!? YOLO",u/BreezyWrigley,https://www.reddit.com/r/wallstreetbets/comments/7ne81z/yall_who_been_trading_jnug_and_shit_listen_up/,https://i.imgur.com/KEB8F8Y.png,,,[]
+44,2018-01-01,Mods are asleep... post tickers that aren't $MU,u/OutofPlaceOneLiner,https://www.reddit.com/r/wallstreetbets/comments/7nea38/mods_are_asleep_post_tickers_that_arent_mu/,,Neutral,"The statement is a straightforward observation about the moderators' activity and a request for users to share stock tickers, lacking any emotional weight.","[""MU""]"
+0,2018-01-01,Requesting DD.,u/[deleted],https://www.reddit.com/r/wallstreetbets/comments/7nerq7/requesting_dd/,[removed],,,[]
+17,2018-01-01,"Daily Discussion Thread - January 01, 2018",u/AutoModerator,https://www.reddit.com/r/wallstreetbets/comments/7nev10/daily_discussion_thread_january_01_2018/,"Trading discussion only. No memeing or shitposting.
+",,,[]
+32,2018-01-01,Tastyworks capping commission's to $10,u/theIdiotGuy,https://www.reddit.com/r/wallstreetbets/comments/7nezx7/tastyworks_capping_commissions_to_10/,"&gt; Starting tomorrow, on Jan 2nd, 2018, tastyworks is introducing capped commissions for large option trades. This means the most commission you will pay for any single leg option trade is $10* (plus clearing fees). That’s right, just $10* per leg.
+
+  
+Is it the Robinhood effect? Not useful to me as I don't trade these many contracts in single trade, but would be useful to a lot of users here.",,,[]
+392,2018-01-01,"Saved over $51,000 on commissions.",u/thittle,https://www.reddit.com/r/wallstreetbets/comments/7nf0dh/saved_over_51000_on_commissions/,https://i.imgur.com/WBzz0xy.jpg,,,[]
+32,2018-01-01,How do I invest in Landfills?,u/appBlu,https://www.reddit.com/r/wallstreetbets/comments/7nf6xs/how_do_i_invest_in_landfills/,http://reddit.com/r/LateStageCapitalism/comments/7nan0m/welcome_to_america_where_40_of_all_food_ends_up/,,,[]
+0,2018-01-01,Starting a new year here's some DD to make killer gains,u/Magickarploco,https://www.reddit.com/r/wallstreetbets/comments/7nfa85/starting_a_new_year_heres_some_dd_to_make_killer/,[removed],,,[]
+24,2018-01-01,"So, I thought of making some money at start of 2018 with some expert tips.",u/SAPit,https://www.reddit.com/r/wallstreetbets/comments/7nfbns/so_i_thought_of_making_some_money_at_start_of/,https://i.redd.it/dmi5wq2qsg701.png,,,[]
+1,2018-01-01,MRW I close out 2017 with some gainz,u/[deleted],https://www.reddit.com/r/wallstreetbets/comments/7nfm36/mrw_i_close_out_2017_with_some_gainz/,https://www.youtube.com/watch?v=0fAbLH_gFag,,,[]
+1,2018-01-01,When does Tesla issue their Q4 8-K? Want to go all in on FDs.,u/mtb703,https://www.reddit.com/r/wallstreetbets/comments/7ng6ij/when_does_tesla_issue_their_q4_8k_want_to_go_all/,[removed],,,[]
+1,2018-01-01,New Years Crash?,u/[deleted],https://www.reddit.com/r/wallstreetbets/comments/7ngag9/new_years_crash/,[deleted],,,[]
+1,2018-01-01,I havent posted in 3 months ever since i quit but lets compare these things it said i have to tell my friends,u/[deleted],https://www.reddit.com/r/wallstreetbets/comments/7ngasi/i_havent_posted_in_3_months_ever_since_i_quit_but/,https://i.redd.it/hh6nm49hrh701.png,,,[]
+2005,2018-01-01,$50 added in every paycheck. Been at it for a little over two years.,u/tempedrew,https://www.reddit.com/r/wallstreetbets/comments/7ngbkr/50_added_in_every_paycheck_been_at_it_for_a/,https://i.redd.it/9mbmlnh6sh701.png,,,[]
+27,2018-01-01,Thoughts on $MJX?,u/panoramicsummer,https://www.reddit.com/r/wallstreetbets/comments/7ngbzl/thoughts_on_mjx/,All in? I don’t know this industry at all and haven’t gotten into weed stocks. Who has some DD ,,,[]
+2,2018-01-01,Long Uber,u/[deleted],https://www.reddit.com/r/wallstreetbets/comments/7ngcue/long_uber/,[deleted],Neutral,The text is too brief and lacks context to determine a clear positive or negative sentiment.,"[""UBER""]"
+1,2018-01-01,WSB's rich. With no actual money.,u/[deleted],https://www.reddit.com/r/wallstreetbets/comments/7ngkmu/wsbs_rich_with_no_actual_money/,https://i.redd.it/hemsfvzizh701.png,,,[]
+2,2018-01-01,This means I'm up right?,u/[deleted],https://www.reddit.com/r/wallstreetbets/comments/7ngqh6/this_means_im_up_right/,https://imgur.com/xOIIhJP,,,[]
+3,2018-01-01,Long $TSLA,u/juicegod101,https://www.reddit.com/r/wallstreetbets/comments/7ngqni/long_tsla/,https://i.redd.it/ezb1o65f4i701.png,Positive,"The use of 'long' indicates a bullish sentiment towards Tesla ($TSLA), suggesting the poster expects the stock price to rise.","[""TSLA""]"
+1,2018-01-01,Best setups for Trading.,u/[deleted],https://www.reddit.com/r/wallstreetbets/comments/7nh0q7/best_setups_for_trading/,https://www.youtube.com/watch?v=bfe6WLTofag,,,[]
+0,2018-01-01,/MJ does TD let us trade mary jane futures?,u/cqm,https://www.reddit.com/r/wallstreetbets/comments/7nh2zn/mj_does_td_let_us_trade_mary_jane_futures/,"I was reading about a supply disruption from california fires coinciding with the recreational licenses going out
+
+Im not big on the weed spot market but the futures market should be easy to trade
+
+Lets make it happen",,,[]
+0,2018-01-01,A year in retrospect: how much are you up over the past year?,u/[deleted],https://www.reddit.com/r/wallstreetbets/comments/7nhbyj/a_year_in_retrospect_how_much_are_you_up_over_the/,[deleted],,,[]
+23,2018-01-01,Wanting to learn,u/SensualNutella,https://www.reddit.com/r/wallstreetbets/comments/7nheht/wanting_to_learn/,"Hi guys and gals. Been floating around this group for a while now and I am interested in learning how to invest and wondering if anyone can point me in the right direction of learning.
+Apps to use, websites to use, articles to read books to read anything is appreciated!
+Thank You!",,,[]
+25,2018-01-01,Get ready to short $TSLA - they finally added rain-sensing wipers to AP2 cars and the fanbois are going to bid it way up at the open,u/ape-x-predator,https://www.reddit.com/r/wallstreetbets/comments/7nhgga/get_ready_to_short_tsla_they_finally_added/,https://np.reddit.com/r/teslamotors/comments/7neqp0/2017503_xxxx_is_out_with_auto_wipers/,Negative,"The post suggests a bearish outlook on Tesla ($TSLA) by encouraging shorting the stock, indicating a belief that its price will decline despite a positive development.","[""TSLA""]"
+34,2018-01-01,"[Discussion] What Are Your Moves Tomorrow, January 02",u/AutoModerator,https://www.reddit.com/r/wallstreetbets/comments/7nhmcs/discussion_what_are_your_moves_tomorrow_january_02/,"Discuss.
+",,,[]
+89,2018-01-01,uninstalling RobinHood,u/ejburritos,https://www.reddit.com/r/wallstreetbets/comments/7nhutq/uninstalling_robinhood/,https://i.redd.it/nee6ia6s0j701.jpg,,,[]
+1,2018-01-01,We’ve been doing it right all this time?!?!?!?!,u/[deleted],https://www.reddit.com/r/wallstreetbets/comments/7nhvdz/weve_been_doing_it_right_all_this_time/,https://i.redd.it/3annz2271j701.jpg,,,[]
+1,2018-01-01,We’ve been doing it right all along?,u/[deleted],https://www.reddit.com/r/wallstreetbets/comments/7nhvkp/weve_been_doing_it_right_all_along/,https://i.redd.it/vaoltaic1j701.jpg,,,[]
+1,2018-01-01,"From a Random Walk down Wall Street, it seems as if we’ve been doing it right all this time.",u/rigbed,https://www.reddit.com/r/wallstreetbets/comments/7nhw0t/from_a_random_walk_down_wall_street_it_seems_as/,https://i.redd.it/zfsu6pdq1j701.jpg,,,[]
+1,2018-01-01,Boston NG on fire $UGAZ,u/XxXmomotraderxX,https://www.reddit.com/r/wallstreetbets/comments/7nhxwm/boston_ng_on_fire_ugaz/,[removed],,,[]
+17,2018-01-01,Poll to see how much of this sub is actually invested in MU,u/[deleted],https://www.reddit.com/r/wallstreetbets/comments/7nhyct/poll_to_see_how_much_of_this_sub_is_actually/,http://www.strawpoll.me/14743323/r,Neutral,The post is a straightforward request for participation in a poll without expressing any positive or negative emotions.,"[""MU""]"
+9,2018-01-01,Marijuana companies caught using banned pesticides to face fines up to $1-million,u/UnsolicitedPeanutMan,https://www.reddit.com/r/wallstreetbets/comments/7ni05z/marijuana_companies_caught_using_banned/,https://www.theglobeandmail.com/news/national/marijuana-companies-caught-using-banned-pesticides-to-face-fines-up-to-1-million/article37465380/,,,[]
+1,2018-01-01,Snapchat IPO roadshow video,u/g65asdf,https://www.reddit.com/r/wallstreetbets/comments/7ni14a/snapchat_ipo_roadshow_video/,[removed],,,[]
+25,2018-01-01,Importance Of Return On Invested Capital When Investing,u/[deleted],https://www.reddit.com/r/wallstreetbets/comments/7nied2/importance_of_return_on_invested_capital_when/,[deleted],,,[]
