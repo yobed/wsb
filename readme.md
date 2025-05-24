@@ -1,5 +1,7 @@
 # Wallstreet Bets Analysis 2017:12:31-2020:08:20 on ~100 relevant tickers
- >**Draft (WIP) project, great learning lesson on data analysis, OSINT, executing w/ LLMs, pitfalls of working w/ data**
+ >**Draft (WIP) project, great learning lesson on data analysis, OSINT, executing w/ LLMs, pitfalls of working w/ data** 
+ 
+ I might continue this and finish it out.
 
 <img src="pics/data_example.png" alt="Data" width="600"/>
 
