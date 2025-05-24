@@ -1,7 +1,7 @@
 # Wallstreet Bets Analysis 2017:12:31-2020:08:20 on ~100 relevant tickers
  >**Draft (WIP) project, great learning lesson on data analysis, OSINT, executing w/ LLMs, pitfalls of working w/ data** 
  
- I might continue this and finish it out.
+**Note** I only ran the analysis to 360,000 (2020:08:20).
 
 <img src="pics/data_example.png" alt="Data" width="600"/>
 
@@ -69,7 +69,7 @@ Read *tesla.py* for more details on how the data was processed.
 
 
 # Thought Process
-We'll use pandas as our main data manipulation library, along with using a chunk_size to read in smaller dataframes, since our dataset is 2_100_000 (2115057) rows. Also we will use the 4o-mini from OpenAI to get sentiment. 
+We'll use pandas as our main data manipulation library, along with using a chunk_size to read in smaller dataframes, since our dataset is 2_100_000 (2115057) rows. Also we will use the 4o-mini from OpenAI to get sentiment. **Note** I only ran the analysis to 360,000 (2020:08:20 **for now**).
 
 **Reason** I did a small project before with Sentiment Analysis: using databases, VADER, and scraping Reddit data, but ran into problems with Sentiment Analysis, and just overall data; I only scraped around 3200 data points.
 
