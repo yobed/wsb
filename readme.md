@@ -79,8 +79,8 @@ We'll use pandas as our main data manipulation library, along with using a chunk
 
 ## Main Lessons Learned:
 1. **Data Extraction**: Extracting relevant tickers from the text data can be tricky, especially with false positives. Using regex is a good start, but further refinement is needed to ensure accuracy.
-2. **Sentiment Analysis**: Using OpenAI's models for sentiment analysis can provide valuable insights, but it can be slow and may require careful management of API rate limits, especially with large datasets, considering the latency involved.
-3. **Data**: You can see that I'm not capturing all the tickers, as I am only capturing the ones that are relevant to the analysis. This means that some tickers may not be captured, and some may be false positives. But allowing the whole dataset to be in there allows for future updates and analysis.
+2. **Sentiment Analysis**: Using OpenAI's models for sentiment analysis can provide valuable insights (reasoning, neutral sentiment *see below*), but it can be slow and may require careful management of API rate limits, especially with large datasets, considering the latency involved.
+3. **Data**: Some tickers may not be captured, and some may be false positives (using a partial ticker list or more common list). But allowing the whole dataset to be in there allows for future updates and analysis.
 * **Data Continued**: For example when running through the files, (currently on chunk 189: 94,500 rows) F for Ford is probably getting so many false positives. Two examples of AI, one bad, one good:
 ```
 TITLE: Volatility
