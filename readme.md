@@ -1,7 +1,7 @@
 # Wallstreet Bets Analysis 2017:12:31-2020:08:20 on ~100 relevant tickers
  >**Draft (WIP) project, great learning lesson on data analysis, OSINT, executing w/ LLMs, pitfalls of working w/ data** 
  
-**Note** I only ran the analysis to 360,000 (2020:08:20) out of ~2.1 million.
+**Note** I only ran the analysis to **360,000** out of **~2.1 million** data points. Full data set is up to 2022 (this has the notorious GME data).
 
 <img src="pics/data_example.png" alt="Data" width="600"/>
 
