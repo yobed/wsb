@@ -99,8 +99,6 @@ How many press F to pay respects posts are there? I'll probably have to filter o
 
 4. **CSV Handling**: I realize that CSV files are dangerous to work on. One mistep, and you can lose all your data. I recommend using a database or at least a backup of the CSV file before making any changes.
 
-My memory while doing this, Chrome Tab for checking usage on OpenAI:
-<img src="pics/memory.png" alt="Memory" width="600"/>
 
 
 
