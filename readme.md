@@ -1,9 +1,9 @@
 # Wallstreet Bets Analysis 2017:12:31-2020:08:20 on ~100 relevant tickers
- >**Draft project, great learning lesson on data analysis, OSINT, executing w/ LLMs, pitfalls of working w/ data**
+ >**Draft (WIP) project, great learning lesson on data analysis, OSINT, executing w/ LLMs, pitfalls of working w/ data**
 
-* Credit to **https://github.com/Watchful1/PushshiftDumps/tree/master** for *dig_through.py*.
+<img src="pics/data_example.png" alt="Data" width="600"/>
 
-* Data grabbed from Pushshift data dump. <img src="pics/data_example.png" alt="Data" width="600"/> ~2.1 million rows of data of wallstreetbets.
+* Data grabbed from Pushshift data dump. ~2.1 million rows of data of wallstreetbets. Credit *https://github.com/Watchful1/PushshiftDumps/tree/master* for `for_data/dig_through.py`.
 
 * Goal 1: To analyze the sentiment of posts related to specific stock tickers, particularly focusing on Tesla (TSLA), and to understand the overall sentiment trends in the Wallstreet Bets subreddit.
 * Goal 2: Use OpenAI's API to see if valid for analyzing data, with giving reasoning for the sentiment, to see if it is worth pursuing for future projects.
