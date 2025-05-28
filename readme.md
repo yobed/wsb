@@ -10,6 +10,31 @@
 * Goal 1: To analyze the sentiment of posts related to specific stock tickers, particularly focusing on Tesla (TSLA), and to understand the overall sentiment trends in the Wallstreet Bets subreddit.
 * Goal 2: Use OpenAI's API to see if valid for analyzing data, with giving reasoning for the sentiment, to see if it is worth pursuing for future projects.
 
+## General Process
+```mermaid
+flowchart TD
+ subgraph s1[" "]
+        n3["Grab Sentiment &amp; Reason via OpenAI<br>"]
+  end
+ subgraph s2[" "]
+        n6["Extract tickers<br>via Regex"]
+        n7["ticker_list.txt"]
+  end
+    n4["wallstreetbets.zst<br>(2.1 million rows)"] --> A["history_wsb.csv"]
+    n3 --> n5(["history_wsb_processed.csv"])
+    n7 --> n6
+    A --> n6
+    s2 --> n3
+    n3@{ shape: proc}
+    n6@{ shape: proc}
+    n7@{ shape: rounded}
+    n4@{ shape: rounded}
+    A@{ shape: rounded}
+     n5:::Pine
+    classDef Pine stroke-width:1px, stroke-dasharray:none, stroke:#254336, fill:#27654A, color:#FFFFFF
+```
+
+
 # Overview of Wallstreet Bets Data
 ## Costs of Analysis
 **OpenAI API**: 53,438 were apart of the relevant tickers, costing a total of 1.88$.
