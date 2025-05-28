@@ -1,14 +1,11 @@
 # Wallstreet Bets Analysis 2017:12:31-2020:08:20 on ~100 relevant tickers
- >**Draft (WIP) project, great learning lesson on data analysis, OSINT, executing w/ LLMs, pitfalls of working w/ data** 
- 
-**Note** I only ran the analysis to **360,000** out of **~2.1 million** data points. Full data set is up to 2022 (this has the notorious GME data).
+ >Still a **work in progress**, to learn about sentiment analysis, large datasets, sentiment analysis (via OpenAI), and data visualization. 
+  
+  ### Tools Used:
+ * Python - (Pandas, Matplotlib, yfinance)
+ * OpenAI API
+ * Open source data from Pushshift
 
-<img src="pics/data_example.png" alt="Data" width="600"/>
-
-* Data grabbed from Pushshift data dump. ~2.1 million rows of data of wallstreetbets. Credit *https://github.com/Watchful1/PushshiftDumps/tree/master* for `for_data/dig_through.py`.
-
-* Goal 1: To analyze the sentiment of posts related to specific stock tickers, particularly focusing on Tesla (TSLA), and to understand the overall sentiment trends in the Wallstreet Bets subreddit.
-* Goal 2: Use OpenAI's API to see if valid for analyzing data, with giving reasoning for the sentiment, to see if it is worth pursuing for future projects.
 
 ## General Process
 ```mermaid
@@ -34,6 +31,17 @@ flowchart TD
     classDef Pine stroke-width:1px, stroke-dasharray:none, stroke:#254336, fill:#27654A, color:#FFFFFF
 ```
 
+
+# Data
+
+**Note** I only ran the analysis to **360,000** out of **~2.1 million** data points. Full data set is up to 2022 (this has the notorious GME data).
+
+<img src="pics/data_example.png" alt="Data" width="600"/>
+
+* Data grabbed from Pushshift data dump. ~2.1 million rows of data of wallstreetbets. Credit *https://github.com/Watchful1/PushshiftDumps/tree/master* for `for_data/dig_through.py`.
+
+* Goal 1: To analyze the sentiment of posts related to specific stock tickers, particularly focusing on Tesla (TSLA), and to understand the overall sentiment trends in the Wallstreet Bets subreddit.
+* Goal 2: Use OpenAI's API to see if valid for analyzing data, with giving reasoning for the sentiment, to see if it is worth pursuing for future projects.
 
 # Overview of Wallstreet Bets Data
 ## Costs of Analysis
